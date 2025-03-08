@@ -54,7 +54,7 @@ conda activate rnaseq_env
 
 ## Usage
 
-Command-Line Input
+**Command-Line Input**
 
 The main pipeline script (run_pipeline.sh) accepts input parameters from the command line. The required options include:
 
@@ -102,7 +102,7 @@ Sample2,/path/to/Sample2_R1.fastq.gz,/path/to/Sample2_R2.fastq.gz,reverse
 
 ## Directory Structure
 
-After running the pipeline, the following directories/files will be generated:
+**After running the pipeline, the following directories/files will be generated:**
 
 fastqc_reports/: Contains FastQC reports for raw FASTQ files
 
