@@ -41,7 +41,7 @@ The pipeline is designed to run in a Conda environment. An example `environment.
 
 1. **Clone this repository:**
    
-   git clone https://github.com/your_username/rnaseq-pipeline.git
+   git clone (https://github.com/ajinkyakhilari/rna_seq.git)
    
    cd rnaseq-pipeline
 
