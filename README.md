@@ -122,33 +122,33 @@ bam_list.txt: Temporary file listing all BAM files processed
 
 **Pipeline Workflow**
 
-Index Creation:
+- Index Creation:
 
 Builds STAR, HISAT2, Salmon, and RSEM indices/references if not already present
 
 Converts GFF annotation to GTF if necessary
 
-Quality Control:
+- Quality Control:
 
 Runs FastQC on the input FASTQ files
 
-Adapter Trimming:
+- Adapter Trimming:
 
 Trims adapters and low-quality bases using the selected trimming tool
 
-Alignment:
+- Alignment:
 
 Aligns trimmed reads using the selected aligner (STAR/HISAT2)
 
-Conversion:
+- Conversion:
 
 Converts SAM files to BAM format using samtools
 
-Feature Counting:
+- Feature Counting:
 
 Counts reads using featureCounts
 
-Quantification:
+- Quantification:
 
 Performs transcript quantification with Salmon or RSEM
 
