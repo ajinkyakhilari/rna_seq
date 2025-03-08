@@ -76,7 +76,7 @@ The main pipeline script (run_pipeline.sh) accepts input parameters from the com
 
 #### Example:
 
-bash run_pipeline.sh -c samples.csv -g /path/to/genome.fa -a /path/to/annotation.gff -t /path/to/transcripts.fa -T fastp -l STAR -q salmon -p 4
+***bash run_pipeline.sh -c samples.csv -g /path/to/genome.fa -a /path/to/annotation.gff -t /path/to/transcripts.fa -T fastp -l STAR -q salmon -p 4***
 
 
 **CSV File Format**
