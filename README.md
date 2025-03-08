@@ -74,7 +74,7 @@ The main pipeline script (run_pipeline.sh) accepts input parameters from the com
 
 -p: Number of threads to use.
 
-### Example:
+#### Example:
 
 ./run_pipeline.sh -c samples.csv -g /path/to/genome.fa -a /path/to/annotation.gff -t /path/to/transcripts.fa -T fastp -l STAR -q salmon -p 4
 
@@ -91,7 +91,7 @@ fastq2: Path to the second FASTQ file (R2)
 
 strandness: Strandness of the data (e.g., unstranded, forward, or reverse)
 
-### Example:
+#### Example:
 
 sample,fastq1,fastq2,strandness
 
