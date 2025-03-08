@@ -52,7 +52,7 @@ conda env create -f environment.yml
 conda activate rnaseq_env
 
 
-**Usage**
+## Usage
 
 Command-Line Input
 
@@ -100,7 +100,7 @@ Sample1,/path/to/Sample1_R1.fastq.gz,/path/to/Sample1_R2.fastq.gz,unstranded
 Sample2,/path/to/Sample2_R1.fastq.gz,/path/to/Sample2_R2.fastq.gz,reverse
 
 
-**Directory Structure**
+## Directory Structure
 
 After running the pipeline, the following directories/files will be generated:
 
@@ -120,7 +120,7 @@ bam_list.txt: Temporary file listing all BAM files processed
 
 
 
-**Pipeline Workflow**
+## Pipeline Workflow
 
 - Index Creation:
 
@@ -153,12 +153,12 @@ Counts reads using featureCounts
 Performs transcript quantification with Salmon or RSEM
 
 
-**Contributing**
+## Contributing
 
 Contributions to improve this pipeline are welcome! Feel free to open issues or pull requests.
 
 
-**License**
+## License
 
 This project is licensed under the GPL3.0 License. See the LICENSE file for details.
 
