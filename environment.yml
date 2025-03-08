@@ -1,0 +1,52 @@
+name: rnaseq_pipeline
+
+channels:
+
+  - bioconda
+
+  - conda-forge
+
+  - defaults
+
+dependencies:
+
+  - python=3.9
+
+  - fastqc
+
+  - multiqc
+
+  - fastp
+
+  - trim-galore
+
+  - star
+
+  - hisat2
+
+  - samtools
+
+  - subread  # Contains featureCounts
+
+  - salmon
+
+  - rsem
+
+  - gffread
+
+  - r-base
+
+  - r-deseq2
+
+  - r-tidyverse
+
+  - r-matrix
+
+  - r-optparse
+
+  - pandas
+
+  - numpy
+
+  - biopython
+
