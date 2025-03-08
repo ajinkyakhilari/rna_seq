@@ -163,7 +163,7 @@ Contributions to improve this pipeline are welcome! Feel free to open issues or 
 This project is licensed under the GPL3.0 License. See the LICENSE file for details.
 
 
-**Contact**
+## Contact
 
 For questions or support, please open an issue in this repository.
 
