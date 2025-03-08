@@ -126,7 +126,7 @@ bam_list.txt: Temporary file listing all BAM files processed
 
 Builds STAR, HISAT2, Salmon, and RSEM indices/references if not already present
 
-Converts GFF annotation to GTF if necessary
+- Converts GFF annotation to GTF if necessary
 
 - Quality Control:
 
